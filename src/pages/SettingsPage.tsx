@@ -96,6 +96,33 @@ export function SettingsPage() {
               dependencias requiere red en la jaula y el correo externo necesita configurar SMTP.</li>
           </ul>
         </Card>
+
+        <Card>
+          <h2 className="text-sm font-semibold text-ink">Proyecto y licencia</h2>
+          <p className="mt-2 text-sm text-ink-muted">
+            WebForge fue creado por Kuraykka y se publica con licencia MIT: puedes usarlo, modificarlo y
+            distribuirlo, incluso comercialmente, conservando el aviso de copyright y la licencia.
+          </p>
+          <p className="mt-2 text-sm">
+            <a
+              className="text-accent hover:underline"
+              href="https://github.com/Kuraykka/webforge"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Repositorio en GitHub
+            </a>
+            <span className="text-ink-faint"> · </span>
+            <a
+              className="text-accent hover:underline"
+              href="https://github.com/Kuraykka/webforge/blob/main/LICENSE"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Licencia MIT
+            </a>
+          </p>
+        </Card>
       </div>
 
       <ConfirmDialog
